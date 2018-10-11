@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<title> Week 1 Prep Notes</title>
+
+
+<h2>In an External File</h2>
+
+<head>
+    <title>Awesome website</title>
+    <link rel="stylesheet" href="path/to/your/css-file.css">
+</head>
+
+<h2>In a <style> definition at the beginning of the document</h2>
+
+<head>
+    <title>Adding CSS using style element</title>
+    <style>
+    h1 {
+        text-decoration: underline;
+        font-family: 'Arial', sans-serif;
+    }
+    </style>
+</head>
+
+
+<h2>Inline styling</h2>
+
+<section style="width: 500px; height: 256px; background:#ccc;"></section>
+
+<h2> 5 types of selectors</h2>
+<div>types</div>
+<div>ids</div>
+<div>classes</div>
+<div>attributes</div>
+<div>pseudo-classes</div>
+
+<h2> Type Selectors</h2>
+
+index.html
+
+<a href="#">link</a>
+
+css.style.css
+
+a {
+    text-decorations: none; // removes the underline
+}
+
+
+
+ID selectors
+used for a unique element, which means that the id should only be used one time, on one element, per page. Simply add an id attribute and a value.
+
+index.html
+
+<div id="mario></div>
+
+css/style.css
+#mario {
+    color: red;
+}
+
+Class selectors
+very similar to the id selector, but class can be shared with more elements. You can apply classes multiple times on a page to any element you want.
+
+index.html
+
+<a disabled>I'm a disabled link!</a>
+
+<input type="button">
+
+css/style.css
+[disabled] {
+    color: gray;
+}
+
+[type="button"] {
+    font-size: 16px;
+}
+

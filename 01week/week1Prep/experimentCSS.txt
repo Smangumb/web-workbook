@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: blue;
+}
+
+ul {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+<body>
+    <h1>CSS Examples</h1>
+    <p>Let's play with CSS!</p>
+    <p>'Try to do the followingL</p>
+      <ul>
+            <li>Make the font change colors.</li>
+            <li>Change the font style.</li>
+            <li>Change the size of the font.</li>
+            <li>Change background color.</li>
+            <li>Get the text to be centered in the middle of the page.</li>
+      </ul>
+    </body>
