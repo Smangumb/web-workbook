@@ -6,7 +6,6 @@ body {
     background-repeat: no-repeat;
     background-size: 3000px;
 }
-
 .box {
     width: 450px;
     background: rgba(0,0,0,0.4);
@@ -17,7 +16,6 @@ body {
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
-
 .box-img{
     border-radius: 50%;
     width: 200px;
@@ -40,8 +38,3 @@ body {
 .box p{
     text-align: justify;
 }
-
-
-
-
-
