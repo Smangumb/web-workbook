@@ -1,0 +1,66 @@
+header {
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../img/nasa-background.jpg);
+    background-repeat: no-repeat;
+    width: 850px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: white;
+    align-self: center;
+    font-size: 500%;
+}
+
+main {
+    background-color: lightgray;
+    width: 850px;
+    height: 324px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    margin: 0 auto;
+    
+}
+
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* height: 150px; */
+}
+
+.officeinfo {
+    display: flex;
+    flex-direction: column;
+    /* height: 185px;  */
+}
+
+.contact {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+#message {
+    height: 50px;
+
+}
+
+button {
+    background-color: gray;
+    color: white;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+
