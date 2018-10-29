@@ -35,13 +35,11 @@ section {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    /* height: 150px; */
 }
 
 .officeinfo {
     display: flex;
     flex-direction: column;
-    /* height: 185px;  */
 }
 
 .contact {
