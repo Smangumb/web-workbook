@@ -1,0 +1,114 @@
+.trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trigger:hover :nth-child(odd) {
+    width: 100px;
+    height: 100px;
+    transform: translate(800px) rotate(1080deg);
+}
+
+.trigger:hover :nth-child(even) {
+    width: 25px;
+    height: 25px;
+    transform: translate(-800px) rotate(-1080deg);
+}
+
+.square1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square2 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square3 {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square4 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square5 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square6 {
+    width: 50px;
+    height: 50px;
+    background-color: indigo;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square7 {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square8 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square9 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square10 {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square11 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
+
+.square12 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+    transition: all 800ms ease-in-out;
+}
