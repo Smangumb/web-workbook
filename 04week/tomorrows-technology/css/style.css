@@ -2,15 +2,12 @@ body {
     margin: 40px;
     border-top: 1px solid black;
     border-right: 1px solid black;
-
-
-
 }
 
 .BG {
     margin: 30px;
     display: flex;
-    align-items: row;  
+    align-items: row;
 }
 
 .container {
@@ -40,7 +37,6 @@ button {
     .container {
         visibility: hidden;
     }
-
     .BG {
         size: 50%;
     }
@@ -51,9 +47,4 @@ button {
     body {
         border-bottom: 1px solid black;
     }
-
-}
-
-@media (min-width: 992px) {
-
 }
