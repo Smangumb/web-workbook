@@ -1,1 +1,125 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
 
+.box {
+    width: 450px;
+    height: 200px;
+    background-color: #666;
+    opacity: .9;
+    padding: 40px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%. 50%);
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.box h1 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.box div {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.box p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+/*WebPage Content*/
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+    
+    
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url(../images/BG.jpg);
+    min-height: 1000px;
+}
+
+.pimg2 {
+    background-image: url(../images/BG2.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(../images/BG3.jpg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+#supercoolsticker {
+    padding: 35px;
+}
+
+.pictures {
+    size:25px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
