@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Sign Up!</h2>
+        <form action="" name="registration">
+            <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="John">
+
+            <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Doe">
+
+            <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+
+            <label form="password">Password</label>
+                <input tabindex="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+            <div class="checkboxes">
+                Male<br>
+                <input type="radio" name="gender" value="male">
+                Female<br>
+                <input type="radio" name="gender" value="female"> 
+                Other
+                <input type="radio" name="gender" value="other">
+                Do you want updates emailed to you?
+                <input type="checkbox" name="question1" value="Question"> 
+                Do you want news related to our content emailed monthly?
+                <input type="checkbox" name="question2" value="Question2"> 
+            </div>
+            <br>
+            How would you rate your experience?
+            <input type="range" name="points" min="0" max="10">
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
