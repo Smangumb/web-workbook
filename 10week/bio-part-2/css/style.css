@@ -1,0 +1,59 @@
+body {
+    font-family: "Open Sans";
+    font-size: 14px;
+    background-image: url(../images/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 3000px;
+  }
+  
+  .box {
+    /* width: 500px;
+    margin: 25px auto; */
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+  }
+  
+form {
+    padding: 20px;
+    background: grey;
+    color: white;
+    border-radius: 4px;
+}
+    
+label, input, button {
+    border: 0;
+    margin-bottom: 3px;
+    display: block;
+    width: 100%;
+}
+input {
+    height: 25px;
+    line-height: 25px;
+    background: $inputBg;
+    color: $inputColor;
+    padding: 0 6px;
+    @include box-sizing(border-box);
+}
+    
+button {
+    height: 30px;
+    line-height: 30px;
+    background: $buttonBg;
+    color: $buttonColor;
+    margin-top: 10px;
+    cursor: pointer;
+    }
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+
+}
